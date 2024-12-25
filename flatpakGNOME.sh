@@ -47,11 +47,11 @@ flatpak install flathub net.ankiweb.Anki -y
 ## Apostrophe: Edit Markdown in style ✨
 #flatpak install flathub org.gnome.gitlab.somas.Apostrophe -y
 
-## Audacity: Audacity is the world's most popular audio editing and recording app
-flatpak install flathub org.audacityteam.Audacity -y
+## Audacity: Audacity is the world's most popular audio editing and recording app ⭐
+#flatpak install flathub org.audacityteam.Audacity -y
 
-## Audio Sharing: Share your computer audio
-flatpak install flathub de.haeckerfelix.AudioSharing -y
+## Audio Sharing: Share your computer audio ⭐
+#flatpak install flathub de.haeckerfelix.AudioSharing -y
 
 ## Shortwave: Listen to internet radio
 flatpak install flathub de.haeckerfelix.Shortwave -y
@@ -77,8 +77,8 @@ flatpak install flathub com.usebruno.Bruno -y
 ## Calculator: Perform arithmetic, scientific or financial calculations ✨
 #flatpak install flathub org.gnome.Calculator -y
 
-## Cameractrls: Camera controls for Linux
-flatpak install flathub hu.irl.cameractrls -y
+## Cameractrls: Camera controls for Linux ⭐
+#flatpak install flathub hu.irl.cameractrls -y
 
 ## Calibre: The one stop solution to all your e-book needs
 flatpak install flathub com.calibre_ebook.calibre -y
@@ -92,8 +92,8 @@ flatpak install flathub com.hunterwittenborn.Celeste -y
 ## Cheese: Take photos and videos with your webcam, with fun graphical effects
 flatpak install flathub org.gnome.Cheese -y
 
-## Cozy:Listen to audio books
-flatpak install flathub com.github.geigi.cozy -y
+## Cozy:Listen to audio books ⭐
+#flatpak install flathub com.github.geigi.cozy -y
 
 ## Czkawka: Multi functional app to find duplicates, empty folders, similar images, broken files etc.
 flatpak install flathub com.github.qarmin.czkawka -y
@@ -155,8 +155,8 @@ flatpak install flathub com.github.tenderowl.frog -y
 ## Gapless: Play your music elegantly
 flatpak install flathub com.github.neithern.g4music -y
 
-## Gear Lever: Manage AppImages
-flatpak install flathub it.mijorus.gearlever -y
+## Gear Lever: Manage AppImages ⭐
+#flatpak install flathub it.mijorus.gearlever -y
 
 ## guiscrcpy: Android Screen Mirroring Software
 flatpak install flathub in.srev.guiscrcpy -y
@@ -167,8 +167,8 @@ flatpak install flathub in.srev.guiscrcpy -y
 ## Heroic Games Launcher: An Open Source Epic Games, GOG and Amazon Prime Games Launcher. ✨
 #flatpak install flathub com.heroicgameslauncher.hgl
 
-## Impression: Create bootable drives
-flatpak install flathub io.gitlab.adhami3310.Impression -y
+## Impression: Create bootable drives ⭐
+#flatpak install flathub io.gitlab.adhami3310.Impression -y
 
 ## Insomnia: Open-source API client (not really open) ❌
 #flatpak install flathub rest.insomnia.Insomnia
@@ -210,8 +210,8 @@ flatpak install flathub fr.romainvigier.MetadataCleaner -y
 ## Mission Center Logo: Monitor system resource usage (Looks like windows, can't be pinned) ❌❌
 #flatpak install flathub io.missioncenter.MissionCenter
 
-## MongoDB Compass: The MongoDB GUI
-flatpak install flathub com.mongodb.Compass -y
+## MongoDB Compass: The MongoDB GUI ⭐
+#flatpak install flathub com.mongodb.Compass -y
 
 ## Mousai: Identify songs in seconds
 flatpak install flathub io.github.seadve.Mousai -y
