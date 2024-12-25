@@ -1,25 +1,26 @@
 # ~/.config/starship.toml
 
 format = """
-[░▒▓](#a3aed2)\
-[  ](bg:#a3aed2 fg:#090c0c)\
-[](bg:#769ff0 fg:#a3aed2)\
+[░▒▓](#c7a3e8)\
+[  ](bg:#c7a3e8 fg:#100c0c)\
+[](bg:#a880e0 fg:#c7a3e8)\
 $directory\
-[](fg:#769ff0 bg:#394260)\
+[](fg:#a880e0 bg:#7547a8)\
 $git_branch\
 $git_status\
-[](fg:#394260 bg:#212736)\
+[](fg:#7547a8 bg:#5c3c7f)\
 $nodejs\
 $rust\
 $golang\
 $php\
-[](fg:#212736 bg:#1d2230)\
+$dotnet\
+[](fg:#5c3c7f bg:#4c3268)\
 $time\
-[ ](fg:#1d2230)\
+[ ](fg:#4c3268)\
 \n$character"""
 
 [directory]
-style = "fg:#e3e5e5 bg:#769ff0"
+style = "fg:#e3e5e5 bg:#a880e0"
 format = "[ $path ]($style)"
 truncation_length = 6
 truncation_symbol = "…/"
@@ -62,23 +63,28 @@ disabled = false
 [nodejs]
 disabled = true
 symbol = ""
-style = "bg:#212736"
-format = '[[ $symbol ($version) ](fg:#769ff0 bg:#212736)]($style)'
+style = "bg:#303030 fg:#83CD29"  # Verde para Node.js
+format = '[[ $symbol ($version) ](fg:#83CD29 bg:#303030)]($style)'
 
 [rust]
 symbol = ""
-style = "bg:#212736"
-format = '[[ $symbol ($version) ](fg:#769ff0 bg:#212736)]($style)'
+style = "bg:#303030 fg:#DEA584"  # Naranja para Rust
+format = '[[ $symbol ($version) ](fg:#DEA584 bg:#303030)]($style)'
 
 [golang]
 symbol = ""
-style = "bg:#212736"
-format = '[[ $symbol ($version) ](fg:#769ff0 bg:#212736)]($style)'
+style = "bg:#303030 fg:#00ADD8"  # Azul para Go
+format = '[[ $symbol ($version) ](fg:#00ADD8 bg:#303030)]($style)'
 
 [php]
 symbol = ""
-style = "bg:#212736"
-format = '[[ $symbol ($version) ](fg:#769ff0 bg:#212736)]($style)'
+style = "bg:#303030 fg:#777BB4"  # Azul para PHP
+format = '[[ $symbol ($version) ](fg:#777BB4 bg:#303030)]($style)'
+
+[dotnet]
+symbol = '.NET '
+style = 'green'
+heuristic = false
 
 [python]
 symbol = ""  # Símbolo para Python

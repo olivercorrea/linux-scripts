@@ -93,6 +93,9 @@ brew install kdabir/tap/has
 ## A modern and user-friendly terminal-based SSH client.
 #brew install mosh
 
+## Starship for a better looking promt terminal
+brew install starship
+
 echo -e "${GREEN}🎉 Aplicaciones brew instalados ...${NC}"
 
 # Mensaje final para el usuario
